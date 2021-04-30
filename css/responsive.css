@@ -329,10 +329,7 @@
 		padding: 60px 0px;
 	}
 	body.app_version .app_iphone_01{
-		width: 204px;
-	}
-	body.app_version .app_iphone_02{
-		width: 500px;
+		width: 216px;
 	}
 	.first-section h2 {
         font-size: 48px;
@@ -349,11 +346,18 @@
 		height: 354px;
 	}
 	.hgi img{
-		height: 354px;
+		height: 389px;
+        padding-left: 5px;
+        width: 190px;
 	}
 	.highlights-phone.wht .phone-holder #fon{
 		background-size: contain;
 	}
+
+    .highlights-phone.wht .hgi {
+        top: 30px;
+    }
+
 
 	.move{
 		margin-left: 0px !important;
@@ -540,9 +544,23 @@
 	.hgi img{
 		height: 354px;
 	}
+    .hgi{
+		width: 220px;
+		height: 354px;
+	}
+	.hgi img{
+		height: 426px;
+        padding-left: 9px;
+        width: 205px;
+	}
 	.highlights-phone.wht .phone-holder #fon{
 		background-size: contain;
 	}
+
+    .highlights-phone.wht .hgi {
+        top: 30px;
+    }
+
 	.left-soi{
 		text-align: center;
 	}
