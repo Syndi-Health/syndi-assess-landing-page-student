@@ -2212,9 +2212,9 @@ body.app_version .dev-list .widget-title small{
 }
  .hgi{
     position: absolute;
-     top: 60px;
-     left: 16px;
-     width: 265px;
+    top: 60px;
+    left: 16px;
+    width: 265px;
     height: 448px;
      visibility: hidden;
 }

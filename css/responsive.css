@@ -386,6 +386,10 @@
         margin-right: 2rem;
     }
 
+    .blog-section {
+        padding-top: 3rem !important;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -487,6 +491,9 @@
 	body.app_version .app_iphone_02{
 		display: none;
 	}
+    .blog-section {
+        padding-top: 1rem;
+    }
 }
 
 @media (max-width: 600px) {
