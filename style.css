@@ -1072,7 +1072,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .icon-wrapper {
     position: relative;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: block;
     z-index: 1;
 }
@@ -1142,7 +1142,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .effect-1 {
     display: inline-block;
-    cursor: pointer;
+    /* cursor: pointer; */
     text-align: center;
     position: relative;
     text-decoration: none;
@@ -1484,7 +1484,6 @@ body.app_version .customwidget li i{
     display: table;
     width: 100%;
     margin: 35px 0;
-    cursor: pointer;
 }
 
 .features-left,

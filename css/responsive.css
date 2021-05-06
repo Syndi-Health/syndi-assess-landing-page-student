@@ -23,9 +23,7 @@
     }
     body.app_version .app_iphone_01 {
         right: 5% !important;
-    }
-    body.app_version .app_iphone_02 {
-        right: 5% !important;
+        width: 320px;
     }
     body.politics_version .app_iphone_01 {
         left: 0%;
@@ -111,6 +109,10 @@
         width: 100%;
     }
 
+    body.app_version .app_iphone_01{
+		width: 300px;
+        top: 17%;
+	}
     
 }
 
@@ -335,7 +337,9 @@
 		padding: 60px 0px;
 	}
 	body.app_version .app_iphone_01{
-		width: 216px;
+		width: 250px;
+        top: 5%;
+        left: 60%;
 	}
 	.first-section h2 {
         font-size: 48px;
@@ -389,7 +393,6 @@
     .blog-section {
         padding-top: 3rem !important;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -493,6 +496,12 @@
 	}
     .blog-section {
         padding-top: 1rem;
+    }
+    body.app_version .hc.colon1 {
+        background-color: #5ECD81;
+    }
+    body.app_version .hc.colon3 {
+        background-color: #5ECD81;
     }
 }
 
@@ -631,12 +640,18 @@
 	.copyrights{
 		padding: 30px 0px;
 	}
+    body.app_version .hc.colon1 {
+        background-color: #5ECD81;
+    }
+    body.app_version .hc.colon3 {
+        background-color: #5ECD81;
+    }
 }
 
 @media (max-width: 320px) {
     body.host_version .btn-light, body.app_version .btn-light {
         display: flex;
-        width: 150px;
+        width: 160px;
         font-size: 18px;
     }
 
@@ -646,6 +661,30 @@
 
     .blog-card {
         width: 18rem;
+    }
+
+    .features-m {
+        margin-top: 3rem;
+    }
+
+    body.app_version .section.db .section-title h2 {
+        padding-top: 1rem;
+    }
+
+    #support .section-title h3 {
+        padding-top: 1rem;
+    }
+
+    .ready-m {
+        padding-top: 1rem;
+    }
+
+    body.app_version .hc.colon1 {
+        background-color: #5ECD81;
+    }
+
+    body.app_version .hc.colon3 {
+        background-color: #5ECD81;
     }
 }
 
