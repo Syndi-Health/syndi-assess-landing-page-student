@@ -74,7 +74,7 @@
         var layout = settings.layout;
         var direction = settings.direction;
 
-        // if any layout, exept slider, selected add animated class to children
+        // if any layout, except slider, selected add animated class to children
         if( this.find('.hgi').length > 0 ){
             this.find('.hgi').addClass('animated');
         } 
