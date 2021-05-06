@@ -74,9 +74,12 @@ body.app_version .cac {
 }
 
 body.app_version .dmtop,
-body.app_version .footer,
 body.app_version .affix {
-    background-color: #201b25;
+    background-color: #2F455C;
+}
+
+body.app_version .footer {
+    background-color: #fff;
 }
 
 body.app_version .copyrights {
@@ -162,9 +165,9 @@ body.app_version .desc h3 i {
     color: #2F455C;
 }
 
-body.app_version .header_style_01 {
+/* body.app_version .header_style_01 {
     top: 45px;
-}
+} */
 
 body.app_version .stat-wrap .alignleft {
     margin-right: 20px;
@@ -293,14 +296,14 @@ body.app_version .how-its-work .hc h2 {
     margin: 0 0 15px;
     line-height: 50px !important;
     font-weight: bold;
-    color: rgba(255,255,255,0.5);
+    color: #2F455C;
 	position: relative;
 	z-index: 1;
 }
 
 body.app_version .how-its-work .hc h3{
-	color: #ffffff;
-	font-size: 38px;
+	color: #2F455C;
+	font-size: 30px;
 	position: relative;
 	z-index: 2;
     padding-top: 1rem;
@@ -315,23 +318,23 @@ body.app_version .how-its-work .hc p {
 body.app_version .how-its-work .hc p.lead {
     font-size: 15px;
     font-weight: 400;
-    color: #ffffff !important;
+    color: #2F455C !important;
 }
 
 body.app_version .hc.colon1 {
-    background-color: #2F455C;
+    background-color: #fff;
 }
 
 body.app_version .hc.colon2 {
-    background-color: #5FCD81;
+    background-color: #fff;
 }
 
 body.app_version .hc.colon3 {
-    background-color: #2F455C;
+    background-color: #fff;
 }
 
 body.app_version .hc.colon4 {
-    background-color: #5FCD81;
+    background-color: #fff;
 }
 
 body.app_version .app-features li {
