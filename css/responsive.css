@@ -123,7 +123,10 @@
 		width: 300px;
         top: 17%;
 	}
-    
+    body.app_version .how-its-work .hc h3 {
+        text-align: center;
+        padding-top: 2rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -179,6 +182,7 @@
     body.clinic_version .how-its-work .hc {
         width: 100% !important;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -407,6 +411,10 @@
     .testimonial h3 {
         font-size: 18px;
     }
+    body.app_version .how-its-work .hc h3 {
+        text-align: center;
+        padding-top: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -545,6 +553,14 @@
         width: 40%;
         padding-bottom: 1rem;
         margin: auto;
+    }
+
+    body.app_version .how-its-work .hc h2 {
+        padding-right: 2rem;
+    }
+    body.app_version .how-its-work .hc h3 {
+        text-align: center;
+        padding-top: 2rem;
     }
 }
 
@@ -704,16 +720,21 @@
         body.app_version .btn-light{
             width: 40%;
         }
-
         .phone-m img {
             display: flex;
             width: 40%;
             padding-bottom: 1rem;
             margin: auto;
         }
-
         .first-section h2 {
             font-size: 35px;
+        }
+        body.app_version .how-its-work .hc h2 {
+            padding-right: 2rem;
+        }
+        body.app_version .how-its-work .hc h3 {
+            text-align: center;
+            padding-top: 2rem;
         }
     }
 
