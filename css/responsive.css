@@ -465,7 +465,8 @@
 		padding: 10px 15px;
 	}
     .apple-store {
-        margin-top: 0rem;
+        margin-top: 1rem;
+        width: 48%;
     }
 	.move{
 		margin-left: 0px !important;
@@ -538,6 +539,12 @@
 @media (max-width: 767px){
     body.app_version .app_iphone_01 {
         display: none;
+    }
+    .phone-m img {
+        display: flex;
+        width: 40%;
+        padding-bottom: 1rem;
+        margin: auto;
     }
 }
 
@@ -703,6 +710,10 @@
             width: 40%;
             padding-bottom: 1rem;
             margin: auto;
+        }
+
+        .first-section h2 {
+            font-size: 35px;
         }
     }
 
