@@ -542,6 +542,10 @@
     body.app_version .dev-list img {
         width: 70%;
     }
+
+    .blog-m {
+        text-align: -webkit-center;
+    }
 }
 
 @media (max-width: 767px){
