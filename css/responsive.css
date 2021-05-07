@@ -78,6 +78,9 @@
         display: none;
     }
    
+    body.app_version .benlink a {
+        padding-top: 1ren;
+    }
 }
 
 @media (max-width: 1158px) {
