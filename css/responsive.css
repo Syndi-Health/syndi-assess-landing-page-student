@@ -683,12 +683,26 @@
     body.app_version .hc.colon3 {
         background-color: #5ECD81;
     }
+
+    .phone-m img {
+        display: flex;
+        width: 40%;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
 }
 
 
 @media (max-width:375px) {
         body.app_version .btn-light{
             width: 40%;
+        }
+
+        .phone-m img {
+            display: flex;
+            width: 40%;
+            padding-bottom: 1rem;
+            margin: auto;
         }
     }
 
