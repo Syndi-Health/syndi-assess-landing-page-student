@@ -14,6 +14,9 @@
     body.politics_version .app_iphone_01 {
         left: 0%;
     }
+    .phone-m img {
+        display: none;
+    }
 }
 
 
@@ -33,6 +36,9 @@
     }
     body.app_version .how-its-work .hc h3 {
         font-size: 19px;
+    }
+    .phone-m img {
+        display: none;
     }
 }
 
@@ -60,12 +66,16 @@
     }
     
     .first-section h2 {
-        font-size: 48px;
+        font-size: 30px;
     }
 
     .image-center img {
         max-width: 80%;
         margin-left: 17rem;
+    }
+
+    .phone-m img {
+        display: none;
     }
    
 }
@@ -342,7 +352,7 @@
         left: 60%;
 	}
 	.first-section h2 {
-        font-size: 48px;
+        font-size: 30px;
     }
 	.btn-light{
 		padding: 12px 20px;
@@ -493,7 +503,9 @@
 		margin: 0px 10px;
 	}
 	body.app_version .app_iphone_01{
-		display: none;
+		width: 185px;
+        top: 5%;
+        left: 60%;
 	}
 	body.app_version .app_iphone_02{
 		display: none;
@@ -517,7 +529,18 @@
         padding-left: 0px;
         width: 210px;
     }
+
+    body.app_version .dev-list img {
+        width: 70%;
+    }
 }
+
+@media (max-width: 767px){
+    body.app_version .app_iphone_01 {
+        display: none;
+    }
+}
+
 
 @media (max-width: 600px) {
     body.host_version .btn-light,
@@ -649,7 +672,7 @@
 		padding: 0px 10px;
 	}
 	.footer{
-		padding: 60px 0 40px !important;
+		padding: 10px 0 0px !important;
 	}
 	.copyrights{
 		padding: 30px 0px;
@@ -661,6 +684,13 @@
         background-color: #5ECD81;
     }
 }
+
+
+@media (max-width:375px) {
+        body.app_version .btn-light{
+            width: 40%;
+        }
+    }
 
 @media (max-width: 320px) {
     body.host_version .btn-light, body.app_version .btn-light {
@@ -700,5 +730,13 @@
     body.app_version .hc.colon3 {
         background-color: #5ECD81;
     }
+
+    .phone-m img {
+        display: flex;
+        width: 40%;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
 }
 
