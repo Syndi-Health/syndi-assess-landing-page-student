@@ -415,6 +415,9 @@
         text-align: center;
         padding-top: 2rem;
     }
+    .blog-m {
+        text-align: -webkit-center;
+    }
 }
 
 @media (max-width: 768px) {
