@@ -256,6 +256,7 @@ body.app_version .footer-social .btn {
 body.app_version .dev-list .widget {
     padding: 30px;
     border: 1px solid #ededed;
+    min-height: 40rem;
 }
 
 body.app_version .dev-list .widget h3 {

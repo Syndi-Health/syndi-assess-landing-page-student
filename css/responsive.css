@@ -17,6 +17,10 @@
     .phone-m img {
         display: none;
     }
+    .jorge
+    {
+        margin-top: 1.6rem;
+    }
 }
 
 
@@ -39,6 +43,10 @@
     }
     .phone-m img {
         display: none;
+    }
+     .jorge
+    {
+        margin-top: 1.6rem;
     }
 }
 
@@ -78,9 +86,9 @@
         display: none;
     }
    
-    body.app_version .benlink a {
-        padding-top: 1ren;
-    }
+
+
+
 }
 
 @media (max-width: 1158px) {
