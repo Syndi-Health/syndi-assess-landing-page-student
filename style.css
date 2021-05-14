@@ -674,6 +674,7 @@ body.app_version .header_style_01.fixed-menu{
     margin: 0;
     padding: 0 0 30px;
     position: relative;
+    text-align: left;
 }
 
 .first-section .lead {

@@ -46,7 +46,7 @@
     }
      .jorge
     {
-        margin-top: 1.6rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -86,8 +86,18 @@
         display: none;
     }
    
+    .jorge
+    {
+        margin-top: 1.2rem;
+    }
 
+    .ben {
+        margin-top: 1.4rem;
+    }
 
+    .eddy {
+        margin-top: 1rem;
+    }
 
 }
 
@@ -110,6 +120,16 @@
     .navbar-default .btn-light {
         display: none;
     }
+
+    .jorge
+    {
+        margin-top: 1.4rem;
+    }
+
+    .ben {
+        margin-top: 1.4rem;
+    }
+
 }
 
 @media (max-width: 1120px) {
@@ -138,63 +158,22 @@
         text-align: center;
         padding-top: 2rem;
     }
-}
 
-@media (max-width: 992px) {
-    body.clinic_version .service-widget {
-        margin: 15px 0;
+    .jorge
+    {
+        margin-top: 1.2rem;
     }
-    .m40 {
-        margin-top: 40px;
+
+    .ben {
+        margin-top: 1.4rem;
     }
-    body.host_version .stat-wrap {
-        text-align: center;
-    }
-    body.host_version .stat-wrap .alignleft {
-        float: none;
-        margin: 0 auto;
-    }
-    .apple-button i {
-        font-size: 32px;
-        margin: 0px 20px 0 0;
-        vertical-align: middle;
-    }
-    body.clinic_version .affix,
-    body.clinic_version .header_style_01,
-    body.app_version .header_style_01 {
-        width: 100% !important;
-        padding: 20px 0 !important;
-    }
-    .apple-button strong {
-        font-size: 24px;
-    }
-	body.app_version .header_style_01{
-		top: 0px;
-	}
-    .pricing-table {
-        margin: 15px 0 !important;
-    }
-    hr.hr2 {
-        display: none;
-    }
-    .stat-wrap .col-md-3,
-    .icon-wrapper,
-    .message-box {
-        margin-bottom: 30px;
-    }
-    .owl-prev i {
-        left: 0;
-        border-radius: 0;
-    }
-    .owl-next i {
-        right: 0;
-        border-radius: 0;
-    }
-    body.clinic_version .how-its-work .hc {
-        width: 100% !important;
+
+    .eddy {
+        margin-top: 1.1rem;
     }
 
 }
+
 
 @media (max-width: 1000px) {
     body.politics_version .header_style_01 {
@@ -427,8 +406,78 @@
         padding-top: 2rem;
     }
 
+    .eddy {
+        margin-top: 0.1rem;
+    }
+
+    .jorge {
+        margin-top: 1.6rem;
+    }
+
+    .ben {
+        margin-top: 1.6rem;
+    }
+
 }
 
+
+@media (max-width: 992px) {
+    body.clinic_version .service-widget {
+        margin: 15px 0;
+    }
+    .m40 {
+        margin-top: 40px;
+    }
+    body.host_version .stat-wrap {
+        text-align: center;
+    }
+    body.host_version .stat-wrap .alignleft {
+        float: none;
+        margin: 0 auto;
+    }
+    .apple-button i {
+        font-size: 32px;
+        margin: 0px 20px 0 0;
+        vertical-align: middle;
+    }
+    body.clinic_version .affix,
+    body.clinic_version .header_style_01,
+    body.app_version .header_style_01 {
+        width: 100% !important;
+        padding: 20px 0 !important;
+    }
+    .apple-button strong {
+        font-size: 24px;
+    }
+	body.app_version .header_style_01{
+		top: 0px;
+	}
+    .pricing-table {
+        margin: 15px 0 !important;
+    }
+    hr.hr2 {
+        display: none;
+    }
+    .stat-wrap .col-md-3,
+    .icon-wrapper,
+    .message-box {
+        margin-bottom: 30px;
+    }
+    .owl-prev i {
+        left: 0;
+        border-radius: 0;
+    }
+    .owl-next i {
+        right: 0;
+        border-radius: 0;
+    }
+    body.clinic_version .how-its-work .hc {
+        width: 100% !important;
+    }
+    .jorge {
+        margin-top: 3.1rem;
+    }
+}
 @media (max-width: 768px) {
     body.building_version .first-section h2 {
         font-size: 34px;
@@ -480,6 +529,7 @@
     }
     .first-section h2 {
         font-size: 32px;
+        text-align: center;
     }
 	.btn-light{
 		padding: 10px 15px;
