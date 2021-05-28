@@ -5,13 +5,12 @@
 @media (min-width: 1310px) {
     .macbookright {
         right: -25%;
-    }
-    body.app_version .app_iphone_01 {
-        right: 5% !important;
-        width: 320px;
-    }
-
-    body.politics_version .app_iphone_01 {
+    }    
+    body.app_version .app_iphone_01{
+		width: 300px;
+        top: 17%;
+	}
+    body.politics_version {
         left: 0%;
     }
     .phone-m img {
@@ -27,12 +26,12 @@
 @media (max-width: 1310px) {
     .macbookright {
         right: -25%;
-    }
-    body.app_version .app_iphone_01 {
-        right: 5% !important;
-        width: 320px;
-    }
-    body.politics_version .app_iphone_01 {
+    }   
+    body.app_version .app_iphone_01{
+		width: 300px;
+        top: 17%;
+	}
+    body.politics_version {
         left: 0%;
     }
     image-center img {
