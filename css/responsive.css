@@ -8,7 +8,7 @@
     }
     body.app_version .app_iphone_01 {
         right: 5% !important;
-        align:right;
+        width: 320px;
     }
 
     body.politics_version .app_iphone_01 {
