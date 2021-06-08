@@ -1,8 +1,9 @@
 module.exports = {
   mode: 'jit',
-  purge: [],
+  purge: ["index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {},
     fontFamily: {
      'display': ['Poppins'],
      'body': ['Poppins'],
